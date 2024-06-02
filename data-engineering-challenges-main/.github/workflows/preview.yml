@@ -1,0 +1,8 @@
+name: Generate Kitt Preview Link
+
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  comment:
+    uses: AbhishekVerma142/data-engineering-challenges-main/.github/.github/workflows/content-preview-kitt.yml@main
